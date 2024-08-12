@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications", "ApiServfyNotifications\ApiServfyNotifications.csproj", "{37279393-0BDB-4914-A56E-3F9750C3BDB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Web", "0.Web", "{DFDB0C1E-DFBC-48B4-9407-94718CD4076E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Application", "1.Application", "{DB656C67-12DC-4C59-972D-059961B31AC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Domain", "2.Domain", "{044FD243-543B-4390-B0EA-FEFC35460696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Infra", "3.Infra", "{F3C6B1BA-514A-4863-9FDF-900DB18C9D9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Test", "4.Test", "{5D4F312C-717F-49A4-B7A2-389C4E0F7335}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.HostingWorker", "5.HostingWorker", "{37D4040B-CBB0-476C-A7BE-24D022947009}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications.Application", "ApiServfyNotifications.Application\ApiServfyNotifications.Application.csproj", "{31CDFD5A-D83E-40E9-B0B9-13FA6F1D1E6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications.Domain", "ApiServfyNotifications.Domain\ApiServfyNotifications.Domain.csproj", "{F253313A-D3DC-4060-B6F1-9C4B4FDC135F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications.Data", "ApiServfyNotifications.Data\ApiServfyNotifications.Data.csproj", "{3F9B27D1-AF50-4715-8E9D-109953605A61}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications.Migrations", "ApiServfyNotifications.Migrations\ApiServfyNotifications.Migrations.csproj", "{A044A0C5-2643-4182-9C2C-C76EEEB6DED3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications.CrossCutting", "ApiServfyNotifications.CrossCutting\ApiServfyNotifications.CrossCutting.csproj", "{DB029CA2-9A11-49EB-9918-EB3F83F5EC91}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiServfyNotifications.Tests", "ApiServfyNotifications.Tests\ApiServfyNotifications.Tests.csproj", "{12C124A6-0462-4A8D-BAA1-4B59EAB7B137}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37279393-0BDB-4914-A56E-3F9750C3BDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37279393-0BDB-4914-A56E-3F9750C3BDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37279393-0BDB-4914-A56E-3F9750C3BDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37279393-0BDB-4914-A56E-3F9750C3BDB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31CDFD5A-D83E-40E9-B0B9-13FA6F1D1E6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31CDFD5A-D83E-40E9-B0B9-13FA6F1D1E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31CDFD5A-D83E-40E9-B0B9-13FA6F1D1E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31CDFD5A-D83E-40E9-B0B9-13FA6F1D1E6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F253313A-D3DC-4060-B6F1-9C4B4FDC135F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F253313A-D3DC-4060-B6F1-9C4B4FDC135F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F253313A-D3DC-4060-B6F1-9C4B4FDC135F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F253313A-D3DC-4060-B6F1-9C4B4FDC135F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F9B27D1-AF50-4715-8E9D-109953605A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F9B27D1-AF50-4715-8E9D-109953605A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F9B27D1-AF50-4715-8E9D-109953605A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F9B27D1-AF50-4715-8E9D-109953605A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A044A0C5-2643-4182-9C2C-C76EEEB6DED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A044A0C5-2643-4182-9C2C-C76EEEB6DED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A044A0C5-2643-4182-9C2C-C76EEEB6DED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A044A0C5-2643-4182-9C2C-C76EEEB6DED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB029CA2-9A11-49EB-9918-EB3F83F5EC91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB029CA2-9A11-49EB-9918-EB3F83F5EC91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB029CA2-9A11-49EB-9918-EB3F83F5EC91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB029CA2-9A11-49EB-9918-EB3F83F5EC91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C124A6-0462-4A8D-BAA1-4B59EAB7B137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C124A6-0462-4A8D-BAA1-4B59EAB7B137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C124A6-0462-4A8D-BAA1-4B59EAB7B137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C124A6-0462-4A8D-BAA1-4B59EAB7B137}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37279393-0BDB-4914-A56E-3F9750C3BDB8} = {DFDB0C1E-DFBC-48B4-9407-94718CD4076E}
+		{31CDFD5A-D83E-40E9-B0B9-13FA6F1D1E6C} = {DB656C67-12DC-4C59-972D-059961B31AC8}
+		{F253313A-D3DC-4060-B6F1-9C4B4FDC135F} = {044FD243-543B-4390-B0EA-FEFC35460696}
+		{3F9B27D1-AF50-4715-8E9D-109953605A61} = {F3C6B1BA-514A-4863-9FDF-900DB18C9D9D}
+		{A044A0C5-2643-4182-9C2C-C76EEEB6DED3} = {F3C6B1BA-514A-4863-9FDF-900DB18C9D9D}
+		{DB029CA2-9A11-49EB-9918-EB3F83F5EC91} = {F3C6B1BA-514A-4863-9FDF-900DB18C9D9D}
+		{12C124A6-0462-4A8D-BAA1-4B59EAB7B137} = {5D4F312C-717F-49A4-B7A2-389C4E0F7335}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15E28DE4-1D98-4DB0-8E84-A142000ADE22}
+	EndGlobalSection
+EndGlobal

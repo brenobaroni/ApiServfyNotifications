@@ -1,0 +1,7 @@
+@api_servfy_base_HostAddress = http://localhost:5222
+
+GET {{api_servfy_base_HostAddress}}/weatherforecast/
+Body: {}
+Accept: application/json
+
+###
